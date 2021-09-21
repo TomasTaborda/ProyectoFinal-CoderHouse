@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ 
+
+.container {
+    padding: 50px;
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+.container > .crop {
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+body{
+    background-color: #4642B8;padding: 70px;font-family: Arial;
+}
+#submenu{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    background: black;
+}
+#formul{
+    padding: 50px;
+}
+#menu{
+	background-color: #000;
+
+}
+
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li{
+	display: inline-block;
+	}
+#menu ul li:hover >ul{
+        display: block;
+}
+
+#menu ul li a{
+	color: white;
+	display: block;
+	padding: 20px 20px;
+	text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: #42B881;
+    
+}
+
+#Criptos2{
+    padding-top: 100px;
+    
+}
+#criptoCotizaciones{
+    padding: 20px;
+}
+#saldo{
+    
+    display: inline-flex;
+    
+}
+#criptosHead{
+    
+    padding:20px;
+}
+#btcimg{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    
+}
+#cotizacionBtc{
+    padding-top: 10px;
+}
+
+#cajaDai{
+    border-inline: 1px;
+}
+#imagencriptos{
+    width: 150px;
+    height: 150px;
+    
+}
+#Criptos2{
+    text-align: center;
+}
+#cotiz{
+    text-align: center;
+}
+#valorcripto{
+    color:#4642B8;
+    font-weight: 900
+}
+#nombrecripto{
+    font-weight: 900
+}
+
+.container-redes{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.container-redes a{
+    margin-top: 3px;
+    
+}
+.container-redes img{
+    width: 60px;
+    padding: 3px;
+    background:rgba(0, 0, 0, 0.0);
+    cursor: pointer;
+    border-radius: 100%;
+    transition: all 300ms;
+}
+.container-redes a:hover img{
+    background:rgba(0, 0, 0, 0.10);
+
+}
+#afip{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+#hrfooter{
+    border: 3px solid #666; 
+    border-radius: 300px/10px; 
+    height: 0px; 
+    text-align: center;
+}
+
+
+
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
